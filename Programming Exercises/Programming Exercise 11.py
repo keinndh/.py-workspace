@@ -28,6 +28,6 @@ else:
 
 total_price = total_purchases - discounted_price
 
-print("\nTotal Purchases: Php", total_purchases)
-print("Discounted Amount: Php", discounted_price)
-print("Total Amount after Discount: Php", total_price)
+print("\nTotal Purchases: Php", round(total_purchases, 2))
+print("Discounted Amount: Php", round(discounted_price, 2))
+print("Total Amount after Discount: Php", round(total_price, 2))

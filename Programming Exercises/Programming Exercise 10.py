@@ -4,4 +4,4 @@
 print("CONVERTING FARENHEIT TO CELSIUS")
 farenheit = float(input("\nEnter farenheit value: "))
 celsius = (farenheit - 32) * 5 / 9
-print("Celsius value is: ", celsius, "°C")
+print("Celsius value is: ", round(celsius, 2), "°C")
