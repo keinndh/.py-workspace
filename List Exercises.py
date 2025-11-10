@@ -62,7 +62,8 @@ sort = sorted(it_companies) # New List
 print(sort)
 
 # 17 Reverse the list in descending order using reverse() method
-print(sort.reverse())
+sort.reverse()
+print(sort)
 
 # 18 Slice out the first 3 companies from the list
 print(sort[:3])
