@@ -345,10 +345,7 @@ countries = [
   'Zambia',
   'Zimbabwe',
 ]
-the_middle_country = len(countries)
-middle_country = the_middle_country // 2
-print(middle_country)
-print(f"Middle Country: {countries[middle_country]}")
+print(f"Middle Country: {countries[len(countries) // 2]}")
 
 # 3 Divide the countries list into two equal lists
 # if it is even if not one more country for the first half.
@@ -357,6 +354,6 @@ print(f"First Half: {countries[0:(len(countries) // 2)]}"
 
 # 4 Unpack the first three countries and the rest as scandic countries.
 powerhouse_countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
-ch, ru, us, *others = powerhouse_countries
+ch, ru, us, *scandic = powerhouse_countries
 print(f"['{ch}', '{ru}', '{us}']")
-print(others)
+print(scandic)
