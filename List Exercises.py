@@ -349,8 +349,19 @@ print(f"Middle Country: {countries[len(countries) // 2]}")
 
 # 3 Divide the countries list into two equal lists
 # if it is even if not one more country for the first half.
-print(f"First Half: {countries[0:(len(countries) // 2)]}"
-      f"\nSecond Half: {countries[(len(countries) // 2):len(countries)]}")
+first_half = 0
+second_half = 0
+countries_half = len(countries) // 2
+if countries_half % 2 == 0:
+    first_half = countries[0:countries_half]
+    second_half = countries[countries_half:len(countries)]
+    print(f"First Half: {first_half}"
+          f"\nSecond Half: {second_half}")
+elif countries_half % 2 == 1:
+    first_half = countries[0:(countries_half + 1)]
+    second_half = countries[(countries_half + 1):len(countries)]
+    print(f"First Half: {first_half}"
+          f"\nSecond Half: {second_half}")
 
 # 4 Unpack the first three countries and the rest as scandic countries.
 powerhouse_countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
