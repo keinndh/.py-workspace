@@ -355,13 +355,11 @@ countries_half = len(countries) // 2
 if countries_half % 2 == 0:
     first_half = countries[0:countries_half]
     second_half = countries[countries_half:len(countries)]
-    print(f"First Half: {first_half}"
-          f"\nSecond Half: {second_half}")
 elif countries_half % 2 == 1:
     first_half = countries[0:(countries_half + 1)]
     second_half = countries[(countries_half + 1):len(countries)]
-    print(f"First Half: {first_half}"
-          f"\nSecond Half: {second_half}")
+print(f"First Half: {first_half}"
+        f"\nSecond Half: {second_half}")
 
 # 4 Unpack the first three countries and the rest as scandic countries.
 powerhouse_countries = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark']
