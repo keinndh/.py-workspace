@@ -34,7 +34,7 @@ class TicketSystem:
         ])
 
         self.sold_ticket_stack = [] 
-        self.next_ticket_id = 1001 d
+        self.next_ticket_id = 1001
 
     def display_queue(self):
         print("\nWaiting Queue:")
@@ -220,4 +220,5 @@ class Main:
 if __name__ == "__main__":
 
     Main.run()
+
 
