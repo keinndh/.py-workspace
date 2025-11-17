@@ -17,8 +17,8 @@ class SeatType(Enum):
     VVIP = "VVIP"
 
 class PaymentMethod(Enum):
-    E_WALLET = "e-wallet"
-    DEBIT = "debit"
+    E_WALLET = "E-Wallet"
+    DEBIT = "Debit"
 
 # DATA CLASS
 class Event:
@@ -412,4 +412,5 @@ class Main:
                 break
 
 if __name__ == "__main__":
+
     Main.run()
