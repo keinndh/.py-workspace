@@ -109,8 +109,6 @@ full_stack.insert(index_fulL_stack, 'Python')
 full_stack.insert(index_fulL_stack + 1, 'SQL')
 print(f"{full_stack}\n")
 
-# =============================================== #
-
 # EXERCISE 2
 print("\nEXERCISES 2")
 

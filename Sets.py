@@ -1,11 +1,3 @@
-# Sets. Set is used to store unique items, and it is possible to find
-# the union, intersection, difference, symmetric difference, subset,
-# super set and disjoint set among sets.
-
-# Sets Operations: len(), checking(element in set_name), adding(set_name.add(element)), updating(set_name.update(set_name or [element/s])), removing(sets_name.remove(element) / set_name.discard(element) / sets_name.pop()), clearing(set_name.clear()), deleting(del set_name), converting_to_list(),
-# union(set_name.union(set_name)), intersecting(set_name.intersection(set_name)), checking_subset(set_name_1.issubset(set_name_2) or set_name_2.issuperset(set_name_1)), difference(stet_name.difference(set_name)), (A\B)∪(B\A) = symmetric_differences(set_name_1.symmetric_difference(set_name_2))
-# joining(set_name_1.isdisjoint(set_name_2))
-
 # Given sets
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
 A = {19, 22, 24, 20, 25, 26}
@@ -34,8 +26,6 @@ print(it_companies)
 print("""The difference between remove an discard is that remove() only remove
 the element/s you want to remove and will return errors if object is not found,
 while the discard() will not return any errors""")
-
-# ============================================================================== #
 
 # EXECISE 2
 print("\nExercise 2")
@@ -66,8 +56,6 @@ print(A.symmetric_difference(B))
 
 # 7 Delete the sets completely
 del A, B # No Output
-
-# =================================================== #
 
 # EXERCISE 3
 print("\nExercise 3")

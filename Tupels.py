@@ -1,7 +1,3 @@
-# Tuples. Tuples are changeable unlike list
-# Tuple Operations: len(), count(), accessing(tuple_name[]),
-# slicing(tuple_name_to_list[]), changing(tuple_to_list), checking(element in tuple_name), joining(addition), deleting(del tuple_name).
-
 # EXERCISE 1
 print("Exercise 1")
 
@@ -25,8 +21,6 @@ print(f"I have {len(siblings)} siblings.")
 parents = ('Shane', 'Alex')
 family_members = siblings + parents
 print(family_members)
-
-# ================================================= #
 
 # EXERCISE 2
 print("\nExercise 2")

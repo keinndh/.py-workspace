@@ -98,7 +98,6 @@ person = {
     }
 }
 
-
 # 1. Check if the person dictionary has skills key, if so print out the middle skill in the skills list.
 skills = person['skills']
 if 'skills' in person:

@@ -52,4 +52,3 @@ print(student)
 
 # 11. Delete one of the dictionaries
 del dog
-print(dog)
