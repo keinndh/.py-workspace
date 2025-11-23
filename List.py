@@ -1,5 +1,5 @@
 # EXERCISES 1
-print("EXERCISES 1")
+print("Exercise 1")
 
 # 1 Declare an empty list
 empty_list = []
@@ -15,14 +15,11 @@ print(len(list))
 # 4 Get the first item, the middle item and the last item of the list
 print(list[0], list[2], list[4]) # Small data set
 
-# 5 Declare a list called mixed_data_types,
-# put your(name, age, height, marital status, address)
+# 5 Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
 mixed_data_types = ['Mon', 19, 174, 'Single', 'Philippines']
 print(mixed_data_types)
 
-# 6 Declare a list variable named it_companies and
-# assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle
-# and Amazon.
+# 6 Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ["Facebook", "Google", "Microsoft", "Apple", "IBM", "Oracle", "Amazon"]
 
 # 7 Print the list using print()
@@ -99,9 +96,7 @@ back_end = ['Node','Express', 'MongoDB']
 join_languages = front_end + back_end
 print(join_languages)
 
-# 27 After joining the lists in question 26.
-# Copy the joined list and assign it to a variable full_stack,
-# then insert Python and SQL after Redux.
+# 27 After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack, then insert Python and SQL after Redux.
 full_stack = join_languages
 redux = "Redux"
 index_fulL_stack = full_stack.index(redux) + 1
@@ -110,7 +105,7 @@ full_stack.insert(index_fulL_stack + 1, 'SQL')
 print(f"{full_stack}\n")
 
 # EXERCISE 2
-print("\nEXERCISES 2")
+print("\nExercise 2")
 
 # 1 The following is a list of 10 students ages:
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
@@ -345,8 +340,7 @@ countries = [
 ]
 print(f"Middle Country: {countries[len(countries) // 2]}")
 
-# 3 Divide the countries list into two equal lists
-# if it is even if not one more country for the first half.
+# 3 Divide the countries list into two equal lists, if it is even if not one more country for the first half.
 first_half = 0
 second_half = 0
 countries_half = len(countries) // 2
