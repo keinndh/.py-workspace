@@ -1,3 +1,6 @@
+# EXERCISE
+print("Exercise")
+
 # 1. Create an empty dictionary called dog
 dog = {}
 print(dog)
@@ -9,8 +12,7 @@ dog['legs'] = 4
 dog['age'] = 5
 print(dog)
 
-# 3. Create a student dictionary and add first_name, last_name, gender, age, marital status,
-# skills, country, city and address as keys for the dictionary
+# 3. Create a student dictionary and add first_name, last_name, gender, age, marital status, skills, country, city and address as keys for the dictionary
 student = {}
 student['first_name'] = 'Bob'
 student['last_name'] = 'Smith'
